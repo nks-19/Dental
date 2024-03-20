@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightSmiles Dental Clinic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="logo.png" type="icon" rel="icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<header class="dark-header">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <div class="logo">
+                <img src="logo.png" alt="BrightSmiles Dental Clinic">
+            </div>
+            <ul class="nav-open">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Welcome to BrightSmiles Dental Clinic</h1>
+        <p>Your Smile, Our Priority</p>
+        <a href="#contact" class="cta-button">Book Appointment</a>
+    </div>
+</section>
+
+
+<section id="about-us" class="about-us">
+    <div class="container">
+        <div class="about-us-content">
+            <h2>About Us</h2>
+            <div class="about-us-text">
+                <p>Welcome to BrightSmiles Dental Clinic, where we are dedicated to providing exceptional dental care in a warm and friendly environment.</p>
+                <p>Dr. Ateksha Bhardwaj Khanna, our lead dentist, believes in delivering personalized care to each patient, ensuring they feel comfortable and confident.</p>
+                <p>Dr. Aman Popli, is a licensed dentist with over 32 years of experience and is committed to staying updated with the latest advancements in dentistry.</p>
+            </div>
+        </div>
+        <div class="about-us-image">
+            <img src="drAteksha.jpeg" alt="Dr. Ateksha Bhardwaj khanna">
+        </div>
+    </div>
+</section>
+
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="container">
+        <div class="services-grid">
+            <div class="service">
+                <img src="cleaning-service.jpg" alt="Cleanings & Exams">
+                <h3>Cleanings & Exams</h3>
+                <p>Regular cleanings and comprehensive dental exams to maintain oral health.</p>
+            </div>
+            <div class="service">
+                <img src="fillings.jpg" alt="Fillings & Restorations">
+                <h3>Fillings & Restorations</h3>
+                <p>Restorative treatments to repair damaged or decayed teeth.</p>
+            </div>
+            <div class="service">
+                <img src="teeth-whitening.jpg" alt="Teeth Whitening">
+                <h3>Teeth Whitening</h3>
+                <p>Professional whitening treatments to brighten your smile.</p>
+            </div>
+            <div class="service">
+                <img src="orthodontics.jpg" alt="Orthodontics">
+                <h3>Orthodontics</h3>
+                <p>Braces and Invisalign to straighten teeth and correct alignment issues.</p>
+            </div>
+            <div class="service">
+                <img src="dental-implants.jpg" alt="Dental Implants">
+                <h3>Dental Implants</h3>
+                <p>Permanent tooth replacement solutions for missing teeth.</p>
+            </div>
+        </div>
+        
+    </div>
+    <a href="#" class="cta-button">View All Services</a>
+</section>
+
+<section id="testimonials" class="testimonials">
+    <h2>Customer Testimonials</h2>
+    <div class="container">
+        
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>Dr. Ateksha and her staff are simply the best!</p>
+                    <p class="testimonial-author">- Mickey</p>
+                </div>
+                <img src="mickey.jpg" alt="mickey">
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"The staff at BrightSmiles is so friendly and professional. They always make me feel at ease during my appointments."</p>
+                    <p class="testimonial-author">- Ram</p>
+                </div>
+                <img src="ram.png" alt="Ram">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="gallery">
+    <h2>Gallery</h2>
+    <div class="container">
+     
+        <div class="gallery-images">
+            <div class="gallery-item">
+                <a href="interior-image.jpg" data-lightbox="gallery" data-title="Clinic Interior">
+                    <img src="interior-thumbnail.png" alt="Clinic Interior">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="equipment-image.jpg" data-lightbox="gallery" data-title="Dental Equipment">
+                    <img src="equipment-thumbnail.png" alt="Dental Equipment">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="staff-image.jpg" data-lightbox="gallery" data-title="Friendly Staff">
+                    <img src="staff-thumbnail.png" alt="Friendly Staff">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <div class="container">
+        <div class="contact-content">
+            <div class="contact-form">
+                <h3>Your Details</h3>
+                <form id="contact-form" method="post">
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    <input type="text" id="number" name="number" placeholder="Number" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="text" id="address" name="address" placeholder="Your Address" required>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Book Appointment</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><strong>Address:</strong>Bhawanipatna,Kalahandi</p>
+                <p><strong>Phone:</strong> +91-9556372389</p>
+                <p><strong>Email:</strong> brightsmiles@dentistclinic.com</p>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30010.638004422486!2d83.14305495637213!3d19.910504464279654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a24ebfe82486fb3%3A0x917ee4e1adc84544!2sBhawanipatna%2C%20Odisha!5e0!3m2!1sen!2sin!4v1710694617051!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="dark-footer">
+    <div class="container">
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <div class="social-media-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.jpg" alt="Instagram"></a>
+        </div>
+        <div class="footer-section">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <p class="copyright">© 2024 BrightSmiles Dental Clinic. All Rights Reserved.</p>
+    </div>
+</footer>
+<hr>
+
+<section class="cta">
+    <div class="container">
+        <h2>Ready to Improve Your Smile?</h2>
+        <p>Book an appointment today and experience top-notch dental care!</p>
+    </div>
+</section>    
+
+
+<script src="script.js"></script>
+</body>
+</html>
